@@ -1,0 +1,298 @@
+<!DOCTYPE html> <!--HTML Version-->
+<html lang="en"> <!--Html start -->
+
+<head> <!--Start of the header tag to show the views of the link shared to the website -->
+
+  <!-- META TAGS-->
+
+  <meta charset="UTF-8"> <!--To set chaarcter in UTF mode -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--To apdat based on the device -->
+  <meta name="description" content="Learn about job openings at IIT and submit your application now"> <!-- Link to show
+    in the website description -->
+  <meta property="og:title" content="IIT Careers"> <!-- Link to show outside the website title -->
+  <meta property="og:description" content="Learn about job openings at IIT and submit your application now"> <!-- Link
+    to show outside the website description -->
+  <meta property="og:image" content="iit.png"> <!-- Link to show as preview image shared via socail media -->
+
+  <!-- LINK TAGS -->
+
+  <link rel="icon" href="iit-logo.png" type="icon/png"> <!-- Link favicon icon to the website -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!--
+    Add bootstrap link from the mentioned website https://getbootstrap.com/docs/5.3/getting-started/introduction/ and
+    copy the link from 2 step (Include Bootstrap’s CSS and JS.) -->
+
+  <link rel="stylesheet" href="style-var.css">
+  <!-- Link CSS variable file should always bellow the bootstrap link only -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link CSS style file should always bellow the bootstrap link only -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Link google fonts from the mentioned website https://fonts.google.com/?preview.layout=grid then select selected family and click on get embed code copy the link as shown -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--TITLE TAG-->
+  <title>IIT Job Opennings</title> <!-- Title of the web page -->
+
+</head> <!-- End of the header tag -->
+
+<body> <!-- Start of the body tag where the content and all information is stored -->
+
+  <!--NAVIGATION TAB-->
+  <nav class="navbar navbar-expand-md shadow-sm "> <!--Navabar should be viewed based on the screen size-->
+    <div class="container-lg px-4"> <!--To set grid system container class is used-->
+      <!--Logo-->
+      <a class="navbar-brand" href="/"><img alt="Logo Image" src="iitm-logo-cirle.png" height="50"
+          class="d-md-none"><!-- Smaller logo for mobile devices --><img alt="Logo Image Bigger" src="logo.jpg"
+          height="50" class="d-none d-md-inline"></a> <!-- Larger logo for larger screens -->
+      <!--Toogle Button-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> <!--To show the navabar icon-->
+      <!--Links for Navbar-->
+      <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://study.iitm.ac.in/ds/academics.html" target="_blank">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://study.iitm.ac.in/ds/" target="_blank">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/@iitmadrasofficial" target="_blank">Youtube</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary ms-md-2" href="https://www.iitm.ac.in/research-park/iitm-research-park" target="_blank">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--ABOUT SECTION-->
+  <div class="container px-4">
+    <div class="row flex-lg-row-reverse align-items-center py-4">
+      <div class="col-12  col-lg-6">
+        <img src="team.jpg" class="d-block  img-fluid rounded mx-auto mb-4" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-12 col-lg-6">
+        <h1 class="display-5 fw-bold  lh-1 mb-3 text-center text-lg-start">IITM Research Park</h1>
+        <p class="lead">IIT Madras Research Park (IITMRP), India's first university-based research park, aspires to
+          build a knowledge and innovation ecosystem where industry leaders and scholars can collaborate with
+          state-of-the-art technology to integrate and apply advancements in knowledge to real-time products or
+          services. Through the fostering of partnerships and assisting new ventures, IITMRP strives to transform and
+          exceed global research and development industry standards.</p>
+        <p class="lead">IITM also offer Industy based courses: </p>
+        <ol class="lead">
+          <li><a href="https://www.iitm.ac.in/the-institute/ai-and-data-sciences">Artifical Intelligence and Data
+              Sciences</a></li>
+          <li><a href="https://www.iitm.ac.in/the-institute/mathematics-and-cybersecurity">Mathematics and Cyber
+              Security</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!--JOBS-->
+  <div class="container px-4 mt-5">
+    <h2 class="text-center mb-2">Job Opportunity</h2>
+
+    <!--Job List in card format for mobile view-->
+    <div class="d-md-none"> <!--To view in mobile mode after that it should hide-->
+
+      <div class="card mb-3"> <!--Declaring card format-->
+        <div class="card-body"><!--Declaring content should store in card-->
+          <h5 class="card-title">Frontend Developer</h5> <!--Title of the card-->
+          <h6 class="card-subtitle my-1 text-body-secondary">Bengaluru, India • ₹ 12,00,000</h6>
+          <!--Subtile of the card-->
+          <small class="card-text text-body-secondary">Posted Mar 3, 2023 </small> <!--Comment of the card-->
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Backend Developer</h5>
+          <h6 class="card-subtitle my-1 text-body-secondary">Mumbai, India • ₹ 9,00,000</h6>
+          <small class="card-text text-body-secondary">Posted Jun 3, 2023 </small>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Web Developer</h5>
+          <h6 class="card-subtitle my-1 text-body-secondary">Chennai, India • ₹ 13,00,000</h6>
+          <small class="card-text text-body-secondary">Posted Aug 3, 2023 </small>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Devops Developer</h5>
+          <h6 class="card-subtitle my-1 text-body-secondary">Delhi, India • ₹ 14,00,000</h6>
+          <small class="card-text text-body-secondary">Posted Oct 3, 2023 </small>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Fullstack Developer</h5>
+          <h6 class="card-subtitle my-1 text-body-secondary">Remote • ₹ 10,00,000</h6>
+          <small class="card-text text-body-secondary">Posted Jan 3, 2024 </small>
+        </div>
+      </div>
+    </div>
+    <!-- Job Table-->
+    <div class="d-none d-md-block col-lg-8 offset-lg-2">
+      <table class="table table-bordered table-striped">
+        <tr class="table-primary text-center">
+          <th rowspan="2">Job Title</th>
+          <th colspan="2">Location</th>
+          <th rowspan="2">Salary</th>
+          <th rowspan="2">Posted On</th>
+        </tr>
+        <tr class="table-primary text-center">
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Frontend Developer</td>
+          <td>Bengaluru</td>
+          <td>India</td>
+          <td>₹ 12,00,000</td>
+          <td>Posted Mar 3, 2023</td>
+          </td>
+
+        </tr>
+        <tr>
+          <td>Backend Developer</td>
+          <td>Mumbai</td>
+          <td>India</td>
+          <td>₹ 9,00,000</td>
+          <td>Posted Jun 3, 2023</td>
+          </td>
+        </tr>
+        <tr>
+          <td>Web Developer</td>
+          <td>Chennai</td>
+          <td>India</td>
+          <td>₹ 13,00,000</td>
+          <td>Posted Aug 3, 2023</td>
+          </td>
+        </tr>
+        <tr>
+          <td>Devops Developer</td>
+          <td>Delhi</td>
+          <td>India</td>
+          <td>₹ 10,00,000</td>
+          <td>Posted Oct 3, 2023</td>
+          </td>
+        </tr>
+        <td>Fullstack Developer</td>
+        <td colspan="2">Remote</td>
+        <td>₹ 12,00,000</td>
+        <td>Posted Jan 3, 2024</td>
+        </td>
+      </table>
+    </div>
+  </div>
+
+  <!--APPLICATION FORM-->
+  <div class="container px-4 mt-5">
+    <h2 class="text-center">Submit Application</h2>
+    <form id="application-form" action="https://formbold.com/s/6Q4vp" method="post" enctype="multipart/form-data"
+      class="col-lg-8 offset-lg-2 ">
+
+      <!--Name-->
+      <div class="mb-3 col-sm-6">
+        <label for="fullname" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="fullname" placeholder="John Wick" name="name" required>
+      </div>
+
+      <!--Email Address-->
+      <div class="mb-3 col-sm-6">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email" required>
+      </div>
+
+      <!--Phone Number-->
+      <div class="mb-3 col-sm-6">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="+911234567890" name="phone" required>
+      </div>
+
+      <!--Date of Birth-->
+      <div class="mb-3 col-sm-6">
+        <label for="dob" class="form-label">Date of Birth</label>
+        <input type="date" class="form-control" id="dob" name="dob" required>
+      </div>
+      <!--Position Apply For-->
+      <div class="mb-3 col-sm-6">
+        <label for="position" class="form-label">Position Applied For</label>
+        <select class="form-select" aria-label="Default select example" required>
+          <option selected value="">Select a position</option>
+          <option value="frontend developer">Frontend Developer</option>
+          <option value="full stack developer">Backend Developer</option>
+          <option value="data scientist">Web Developer</option>
+          <option value="ml engineer ">Devops Developer</option>
+          <option value="data scientist">Fullstack Developer</option>
+        </select>
+      </div>
+
+      <!--RESUME-->
+      <div class="mb-3 col-sm-6">
+        <label for="resume" class="form-label">Upload Resume</label>
+        <input type="file" class="form-control" id="resume" name="resume" required>
+      </div>
+
+      <!--COVER LETTER-->
+      <div class="mb-3">
+        <label for="cover" class="form-label">Cover Letter</label>
+        <textarea placeholder="Why should we consider you for the job?" class="form-control" id="cover"
+          name="cover-letter" rows="5" required></textarea>
+      </div>
+
+      <!--TERMS-->
+      <div class="mb-3 form-check">
+        <label class="form-check-label" for="terms">I agree to the terms and coditions.</label>
+        <input type="checkbox" class="form-check-input" id="terms">
+      </div>
+
+      <!--SUBMIT BUTTON-->
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+
+    </form>
+  </div>
+
+  <!--FOOTER-->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-top pt-3 mb-3">
+        <li class="nav-item">
+          <a href="https://study.iitm.ac.in/ds/academics.html" class="nav-link px-2 text-body-secondary" target="_blank">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://study.iitm.ac.in/ds/" class="nav-link px-2 text-body-secondary" target="_blank">Programs</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.youtube.com/@iitmadrasofficial" class="nav-link px-2 text-body-secondary" target="_blank">YouTube</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.iitm.ac.in/research-park/iitm-research-park" class="nav-link px-2 text-body-secondary" target="_blank">Sign In</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 IITM (Research Park)</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script> <!--To include JS file need to add this tag at the bottom of the body tag -->
+
+
+</body> <!--End of the body tag-->
+
+</html> <!--Html ends-->
